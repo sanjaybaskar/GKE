@@ -16,7 +16,7 @@ variable "cluster_name" {
 variable "node_count" {
   description = "The number of nodes in the GKE cluster"
   type        = number
-  default     = 3
+  #default     = 3
 }
 
 variable "machine_type" {
